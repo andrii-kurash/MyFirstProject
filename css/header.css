@@ -1,0 +1,38 @@
+.header{
+	background: #333333;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+.menu__list{
+	display: flex;
+}
+
+.menu__item{
+	margin: 0 15px;
+}
+
+.menu__list-link{
+	text-transform: uppercase;
+	color: #fefefe;
+	font-size: 18px;
+	line-height: 21px;
+	padding-bottom: 5px;
+	transition: all .5s;
+	border-bottom: 1px solid transparent;
+}
+
+.menu__list-link:hover{
+	border-bottom: 1px solid #fefefe;
+}
+
+.phone{
+	color: #fefefe;
+	font-size: 18px;
+	line-height: 21px;
+}

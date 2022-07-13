@@ -1,0 +1,14 @@
+@import url(reset.css);
+
+@import url(common.css);
+@import url(header.css);
+@import url(top.css);
+@import url(rent.css);
+@import url(benefits.css);
+@import url(feedback.css);
+@import url(footer.css);
+
+@import url(media.css);
+
+@import url(slick.css);
+@import url(jquery.fancybox.css);
