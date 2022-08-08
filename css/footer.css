@@ -1,16 +1,22 @@
-.footer{
+.footer {
 	padding: 25px 0 24px;
 	background: #333333;
 }
 
-.footer__social{
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin-bottom: 15px;
+}
+.footer__social {
 	list-style: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.footer__social-link{
+.footer__social-link {
 	margin: 0 15px;
 }
-

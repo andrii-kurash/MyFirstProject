@@ -1,0 +1,63 @@
+.reviews{
+	padding: 50px 0 100px;
+	background-color: #333333;
+	color: #fefefe;
+}
+
+.reviews__title{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.reviews__slider{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider__slide{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.slide__card{
+	width: 250px;
+	background-color: #fefefe;
+	padding: 25px 40px;
+	text-align: center;
+}
+.slide__card:nth-child(2){
+	margin: 0 50px;
+}
+.card-user-photo{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	margin-bottom: 15px;
+}
+.card-user-name{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #333333;
+}
+.card-user-review{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #333333;
+}
+button.reviews-slider__button-prev,
+button.reviews-slider__button-next{
+	border: none;
+	background: transparent;
+}
+.reviews-slider__button-prev,
+.reviews-slider__button-next{
+	
+}
+

@@ -1,12 +1,6 @@
 .benefits{
-	padding: 50px 0;
-}
-
-.benefits__content{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	flex-wrap: wrap;
+	padding: 0;
+	margin-bottom: 100px;
 }
 
 .benefits__title{
@@ -17,21 +11,123 @@
 	margin-bottom: 50px;
 }
 
+.benefits__items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.benefits__list{
+	width: 300px;
+	list-style: none;
+}
+
+.benefits__list-item{
+	margin-bottom: 27px;
+	padding-right: 26px;
+	position: relative;
+	text-align: right;
+}
+
+.benefits__list-item::after{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #332208;
+	right: 0;
+	top: 5px;
+}
+
+.benefits__content{
+	width: 300px;
+	text-align: right;
+}
+
+.benefits__list-item:nth-child(1),
+.benefits__list-item:nth-child(7){
+	margin-right: 10px;
+}
+
+.benefits__list-item:nth-child(2),
+.benefits__list-item:nth-child(6){
+	margin-right: 60px;
+}
+
+.benefits__list-item:nth-child(3),
+.benefits__list-item:nth-child(5){
+	margin-right: 110px;
+}
+
+.benefits__list-item:nth-child(4){
+	margin-right: 155px;
+}
+
 .benefits__text{
 	margin-bottom: 30px;
+	text-align: right;
 }
 
 .benefits__text + .benefits__text{
 	width: 210px;
+	margin-left: auto;
 }
 
 .video-popup{
-	width: 200px;
 	background-color: #EB5757;
 	text-transform: uppercase;
 	color: #fefefe;
-	padding: 6px 34px 6px 34px;
+	padding: 6px 60px 6px 34px;
 	text-align: center;
 	display: inline-block;
 	position: relative;
+	border: 1px solid transparent;
 }
+
+.video-popup::after{
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: url('../images/video-btn.png');
+	top: 12px;
+	right: 30px;
+}
+.video-popup:hover{
+	background-color: #fefefe;
+	text-transform: uppercase;
+	color: #EB5757;
+	padding: 6px 60px 6px 34px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	border-color: #EB5757;
+}
+.video-popup:hover{
+	border-color: #EB5757;
+}
+.video-popup::after:hover{
+	background: url('../images/video-btn-hover.png');
+}
+/* .feedback__btn{
+	text-transform: uppercase;
+	color: #fefefe;
+	border: 1px solid transparent;
+	display: inline-block;
+	padding: 16px 36px 15px;
+	background-color: #EB5757;
+	margin-top: 50px;
+	font-family: 'Roboto Condensed', sans-serif;;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.feedback__btn:hover{
+	background-color: #fefefe;
+	color: #EB5757;
+	border: 1px solid #EB5757;
+} */
