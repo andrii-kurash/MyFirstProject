@@ -181,6 +181,12 @@
  	}
 }
 
+@media(max-width: 805px){
+	.reviews {
+		display: none;
+	}
+}
+
 @media (max-width: 450px){
 	.footer .phone{
 		margin-top: 30px;

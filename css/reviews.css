@@ -7,9 +7,9 @@
 .reviews__title{
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 500;
-	font-size: 24px;
-	line-height: 29px;
-	margin-bottom: 50px;
+	font-size: 2rem;
+	line-height: 3rem;
+	margin-bottom: 4rem;
 	text-align: center;
 }
 .reviews__slider{
@@ -22,15 +22,15 @@
 	max-width: 100%;
 	display: flex;
 	justify-content: space-around;
+	margin: 2rem;
 }
 .slide__card{
-	width: 250px;
 	background-color: #fefefe;
-	padding: 25px 40px;
+	padding: 2rem;
 	text-align: center;
 }
 .slide__card:nth-child(2){
-	margin: 0 50px;
+	margin: 0 3rem;
 }
 .card-user-photo{
 	width: 60px;
@@ -41,23 +41,21 @@
 .card-user-name{
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 700;
-	font-size: 16px;
-	margin-bottom: 10px;
+	font-size: 1rem;
+	margin-bottom: 1rem;
 	color: #333333;
 }
 .card-user-review{
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 0.7rem;
 	color: #333333;
+	max-height: 8rem;
+	max-width: 14rem;
 }
 button.reviews-slider__button-prev,
 button.reviews-slider__button-next{
 	border: none;
 	background: transparent;
-}
-.reviews-slider__button-prev,
-.reviews-slider__button-next{
-	
 }
 
